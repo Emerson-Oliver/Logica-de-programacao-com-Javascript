@@ -1,7 +1,12 @@
 alert("Boas vindas ao jogo do numero secreto!");
-let numeroSecreto = 29;
-let chute = prompt("Escolha um numero entre um e 30"); 
 
-if(chute === numeroSecreto){
-    console.log("Parabéns voce descobriu o numero secreto");
+let chute = prompt("Escolha um numero entre um 0 e 30"); 
+let numeroSecreto = 365;
+
+if(chute == numeroSecreto){
+    alert(`Parabéns voce descobriu o numero secreto que é:  ${numeroSecreto}`);
+} 
+
+else{
+    alert("Voce errou tecle F5 e tente novamente!")
 }
